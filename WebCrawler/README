@@ -1,0 +1,18 @@
+Author: Ji Kang
+CSS490 Cloud Computing
+
+Compile instructions:
+Please do this in a linux environment (Used Ubuntu for development) 
+2 ways to compile this program. 
+Simple bash script to just run the same command but either work equally well. 
+Using the command line (and in the same directory as the project files), do either one of the following: 
+--> 1. ./buildWC.sh 
+--> 2. javac WebCrawler.java 
+
+This'll produce a WebCrawler.class (the most recent compilation already included but may be deleted since this'll produce a new one). 
+From there, I included some sample runs (3 executions with varying number of hops). 
+
+To run the sample one (also a bash script), do ./sample_run.sh in the same terminal
+
+Or to run your own website urls, please do 'java http://(your url).com (your number of hops)'
+Program is made to take only http links so include http in the overall URL please. 
