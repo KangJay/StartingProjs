@@ -1,8 +1,0 @@
-Antony Williams age=58
-Alex	Daniel age=20  id=123
-	Robert Williams age=30 id=12456
-Ray Carver age=78 legs=2
-Peter Nadas id=342 book=parallelStories
-TC Boyle id=876 age=54 jacket=yellow hair=red
-JJ Octopi legs=8 age=34 id=9076
-Walter Bottle weight=8oz id=7654
