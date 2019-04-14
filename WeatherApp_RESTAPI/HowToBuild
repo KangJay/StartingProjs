@@ -1,0 +1,15 @@
+Author: Ji Kang
+CSS490 Cloud Computing
+
+Compile instructions:
+Please do this in a linux environment (Used Ubuntu for development) 
+2 ways to compile this program. 
+Simple bash script to just run the same command but either work equally well. 
+Please make sure the following files are also in the same directory/folder: 'build.sh', 'HowToBuild'(this file), 'WeatherGetter.java'.
+
+Using the command line (and in the same directory as the project files), do either one of the following: 
+--> 1. ./build.sh 
+--> 2. javac WeatherGetter.java 
+
+This'll produce 'WeatherGetter.class' (the most recent compilation already included but can be deleted since this'll produce a new one). 
+

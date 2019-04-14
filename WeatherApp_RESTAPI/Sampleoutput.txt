@@ -1,0 +1,165 @@
+jkang18@JaydenLinux:~/Dropbox/CSS490/JiKang_Prog2_REST$ ./build.sh 
+jkang18@JaydenLinux:~/Dropbox/CSS490/JiKang_Prog2_REST$ java WeatherGetter Seattle
+=================================================================
+City Name: Seattle
+Sky Description: Rain and lightrain
+
+Current Temperature: 48.25 degrees Fahrenheit
+Max Temperature: 51.08 degrees Fahrenheit
+Min Temperature: 44.60 degrees Fahrenheit
+
+Atsmospheric Pressure: 1005 hPa
+Humidity: 65%
+Wind Speed: 4.70 mph
+Sunrise: 2019-02-01 07:35:33 PST (YYYY-MM-DD HH:mm:ss)
+Sunset: 2019-02-01 17:10:56 PST (YYYY-MM-DD HH:mm:ss)
+=================================================================
+Thank you for using Ji's Weather app!
+jkang18@JaydenLinux:~/Dropbox/CSS490/JiKang_Prog2_REST$ java WeatherGetter Houston, us
+=================================================================
+City Name: Houston
+Sky Description: Mist and mist
+
+Current Temperature: 56.84 degrees Fahrenheit
+Max Temperature: 59.00 degrees Fahrenheit
+Min Temperature: 53.96 degrees Fahrenheit
+
+Atsmospheric Pressure: 1018 hPa
+Humidity: 100%
+Wind Speed: 3.96 mph
+Sunrise: 2019-02-01 05:11:16 PST (YYYY-MM-DD HH:mm:ss)
+Sunset: 2019-02-01 15:59:16 PST (YYYY-MM-DD HH:mm:ss)
+=================================================================
+Thank you for using Ji's Weather app!
+jkang18@JaydenLinux:~/Dropbox/CSS490/JiKang_Prog2_REST$ java WeatherGetter New York
+=================================================================
+City Name: NewYork
+Sky Description: Clear and clearsky
+
+Current Temperature: 11.28 degrees Fahrenheit
+Max Temperature: 15.08 degrees Fahrenheit
+Min Temperature: 5.00 degrees Fahrenheit
+
+Atsmospheric Pressure: 1031 hPa
+Humidity: 45%
+Wind Speed: 6.62 mph
+Sunrise: 2019-02-01 04:05:53 PST (YYYY-MM-DD HH:mm:ss)
+Sunset: 2019-02-01 14:13:44 PST (YYYY-MM-DD HH:mm:ss)
+=================================================================
+Thank you for using Ji's Weather app!
+jkang18@JaydenLinux:~/Dropbox/CSS490/JiKang_Prog2_REST$ java WeatherGetter Los Angeles
+=================================================================
+City Name: LosAngeles
+Sky Description: Mist and mist
+
+Current Temperature: 50.99 degrees Fahrenheit
+Max Temperature: 55.04 degrees Fahrenheit
+Min Temperature: 44.06 degrees Fahrenheit
+
+Atsmospheric Pressure: 1015 hPa
+Humidity: 82%
+Wind Speed: 2.15 mph
+Sunrise: 2019-02-01 06:49:54 PST (YYYY-MM-DD HH:mm:ss)
+Sunset: 2019-02-01 17:23:40 PST (YYYY-MM-DD HH:mm:ss)
+=================================================================
+Thank you for using Ji's Weather app!
+jkang18@JaydenLinux:~/Dropbox/CSS490/JiKang_Prog2_REST$ java WeatherGetter Springfield
+=================================================================
+City Name: Springfield
+Sky Description: Clouds and overcastclouds
+
+Current Temperature: 37.24 degrees Fahrenheit
+Max Temperature: 37.40 degrees Fahrenheit
+Min Temperature: 37.04 degrees Fahrenheit
+
+Atsmospheric Pressure: 1019 hPa
+Humidity: 59%
+Wind Speed: 6.93 mph
+Sunrise: 2019-02-01 05:15:58 PST (YYYY-MM-DD HH:mm:ss)
+Sunset: 2019-02-01 15:38:01 PST (YYYY-MM-DD HH:mm:ss)
+=================================================================
+Thank you for using Ji's Weather app!
+jkang18@JaydenLinux:~/Dropbox/CSS490/JiKang_Prog2_REST$ java WeatherGetter
+Enter 'quit' to exit
+Enter a city name: Tampa
+=================================================================
+City Name: Tampa
+Sky Description: Clouds and brokenclouds
+
+Current Temperature: 54.25 degrees Fahrenheit
+Max Temperature: 57.92 degrees Fahrenheit
+Min Temperature: 51.08 degrees Fahrenheit
+
+Atsmospheric Pressure: 1024 hPa
+Humidity: 87%
+Wind Speed: 5.82 mph
+Sunrise: 2019-02-01 04:16:48 PST (YYYY-MM-DD HH:mm:ss)
+Sunset: 2019-02-01 15:10:25 PST (YYYY-MM-DD HH:mm:ss)
+=================================================================
+Enter 'quit' to exit
+Enter a city name: Montreal
+=================================================================
+City Name: Montreal
+Sky Description: Snow and lightsnow
+
+Current Temperature: 1.85 degrees Fahrenheit
+Max Temperature: 5.00 degrees Fahrenheit
+Min Temperature: -2.20 degrees Fahrenheit
+
+Atsmospheric Pressure: 1022 hPa
+Humidity: 60%
+Wind Speed: 20.80 mph
+Sunrise: 2019-02-01 04:15:21 PST (YYYY-MM-DD HH:mm:ss)
+Sunset: 2019-02-01 14:01:18 PST (YYYY-MM-DD HH:mm:ss)
+=================================================================
+Enter 'quit' to exit
+Enter a city name: Montreal, CA
+=================================================================
+City Name: Montreal
+Sky Description: Snow and lightsnow
+
+Current Temperature: 1.85 degrees Fahrenheit
+Max Temperature: 5.00 degrees Fahrenheit
+Min Temperature: -2.20 degrees Fahrenheit
+
+Atsmospheric Pressure: 1022 hPa
+Humidity: 60%
+Wind Speed: 20.80 mph
+Sunrise: 2019-02-01 04:15:18 PST (YYYY-MM-DD HH:mm:ss)
+Sunset: 2019-02-01 14:01:12 PST (YYYY-MM-DD HH:mm:ss)
+=================================================================
+Enter 'quit' to exit
+Enter a city name: minneapolis
+=================================================================
+City Name: Minneapolis
+Sky Description: Snow and lightsnow
+
+Current Temperature: -2.04 degrees Fahrenheit
+Max Temperature: 1.40 degrees Fahrenheit
+Min Temperature: -4.36 degrees Fahrenheit
+
+Atsmospheric Pressure: 1022 hPa
+Humidity: 70%
+Wind Speed: 4.70 mph
+Sunrise: 2019-02-01 05:32:38 PST (YYYY-MM-DD HH:mm:ss)
+Sunset: 2019-02-01 15:21:18 PST (YYYY-MM-DD HH:mm:ss)
+=================================================================
+Enter 'quit' to exit
+Enter a city name: Washington
+=================================================================
+City Name: WashingtonDC.
+Sky Description: Clear and clearsky
+
+Current Temperature: 14.59 degrees Fahrenheit
+Max Temperature: 19.94 degrees Fahrenheit
+Min Temperature: 8.60 degrees Fahrenheit
+
+Atsmospheric Pressure: 1031 hPa
+Humidity: 62%
+Wind Speed: 3.36 mph
+Sunrise: 2019-02-01 04:14:17 PST (YYYY-MM-DD HH:mm:ss)
+Sunset: 2019-02-01 14:29:42 PST (YYYY-MM-DD HH:mm:ss)
+=================================================================
+Enter 'quit' to exit
+Enter a city name: 
+
