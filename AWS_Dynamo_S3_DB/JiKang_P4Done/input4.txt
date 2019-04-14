@@ -1,0 +1,5 @@
+Bowie David age=58 id=8765
+Byrne David age=55 id=879897
+Cassidy David happy=true id=765
+Strummer Joe  age=ageless id=1
+Costello Elvis age=61 album=MyAim

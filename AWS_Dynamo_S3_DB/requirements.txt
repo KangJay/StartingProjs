@@ -1,0 +1,4 @@
+-- Empty on purpose
+to recreate, in your virtual environment, run.. 
+pip3 freeze > requirements.txt 
+and remove any dependencies with versions = 0.0 or 0.0.0 or any variations of those

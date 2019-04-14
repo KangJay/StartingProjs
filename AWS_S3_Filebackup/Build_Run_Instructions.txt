@@ -1,0 +1,36 @@
+Author: Ji Kang
+CSS490 Cloud Computing
+Program 3: Back up build and run instructions
+
+Utilizing Python3, there are no steps to build the application. 
+
+To run: 
+- Written in a linux environment so please run in one (Program was developed in Ubuntu)
+- utilizing AWS Boto3 API so make sure Boto3 and AWS CLI are both installed accordingly. 
+- In your AWS configurations file (Done via 'aws configure' in the CLI), make sure your credentials are in order and you are a valid IAM user to essentially have full access to your account (Read/Write privileges). 
+- If you currently do not have IAM User security credentials (Access Key ID and secret Access key), please go to https://console.aws.amazon.com/iam/home?#/security_credentials and configure your account. Once you get your security credential, please open up the AWS Configuration via Command line interface with "aws configure" and map the access key id and secret access key accordingly with the credentials you get in the csv file from AWS. 
+- Your default region, for purposes of this program, should be set to "us-west-2" but can be any default region as long as you run the program with the region flag set and with an argument that is your default region. See examples below
+- In your region setting for AWS configurations, it's not pertinent if you follow the optional flags below but setting your region to us-west-2 by default will let you skip the '-bn' flag shown below. Otherwise, please utilize the '-bn' flag to specify which region you're default region is.
+- Was written in Python3 so please use the 'python3' interpreter while running this program.
+- Move the program in the same directory as the files you want to back up. 
+
+____________________FLAGS__________________________________________________
+- Has optional flags: 
+	-->  '-bn <argument>'  : Specifies a bucket name to back up to (Can already exist or does not yet). 
+	-->  '-reg' <argument> : Specifies a different location constraint that default set. 
+- This program utilizes the following defaults: If a bucket name isn't specified at run-time, it'll, by default, create and upload to a bucket named 'jikangprog490test'. If a location constraint isn't specified, it'll upload to a 'us-west-2' server.
+- Please utilize these flags if 
+	1. Your default AWS configuration has the region set to something else.
+		-> if your default region is us-west-1, please specify that in the flag: 
+		like '-reg us-west-1'
+	2. You have a specific bucket (already exists) you want to back up to 
+	3. or have a specific bucket you want to create and then back up to. 
+- Execute via command line in the same directory as the files you want to back up. 
+___________________________________________________________________________
+
+Sample executions: 
+- 'python3 Backup.py -bn bucketforthe490grader -reg us-east-1' if you want to back up to a bucket named "bucketforthe490grader" in the "us-east-1" region
+- 'python3 Backup.py' has no flags set so it'll utilize the default values of 'jikangprog490test' for the bucket and 'us-west-2' as the server location. 
+- 'python3 Backup.py -bn catpicturesfordimpsey' has the bucket flag set but no region. It'll create and/or upload to a bucket called "catpicturesfordimpsey" in the default region of us-west-2 IF your AWS configuration is also set there. 
+- 'python3 -reg us-east-1' has a region flag set but no bucket name. Upload to jikangprog490test in a server in us-east-1. 
+
